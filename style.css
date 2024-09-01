@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+body{
+    background-color: #4f34eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.main{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    display: flex;
+}
+
+.leftDiv{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.leftDiv img{
+    
+    object-fit: cover;
+
+}
+
+.rightDiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.rightDiv h1{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.inputElements{
+    width: 100%;
+}
+.inputElements div{
+    margin: 10px 0;
+}
+
+.inputElements div input{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid rgb(94, 93, 93);
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+
+.inputElements div label{
+    font-size: 10px;
+    font-weight: 600;
+    color: gray;
+    
+}
+.TermsAndConds{
+    font-size: 9px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.TermsAndConds label span{
+    color: rgb(216, 63, 191);
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.buttons a{
+    text-decoration: none;
+    color: rgb(216, 63, 191);
+}
+
+.buttons button{
+    padding: 8px 20px;
+    border: 0;
+    color: white;
+    background:linear-gradient(to right ,rgb(216, 63, 191), rgb(98, 0, 255));
+}
+
+.close{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    
+}
